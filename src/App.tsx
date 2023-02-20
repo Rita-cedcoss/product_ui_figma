@@ -13,13 +13,11 @@ function App() {
        <Navbar/>
        {/* slider trending */}
        <ProductSlider heading="Trending Now"/>
-       {/* about */}
        {/* summer */}
        <SummerComponent/>
        <ProductSlider heading="Recommended For You"/>
-       <About/>
        <ProductSlider heading="New in Accessories"/>
-       {/* */}
+       {/*Footer */}
        <Footer/>
     </div>
    
