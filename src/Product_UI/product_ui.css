@@ -5,7 +5,9 @@
 .container {
     max-width: 1140px;
     margin: auto;
+    font-family:"Inter";
 }
+/* navbar css */
 .navbar{
     min-height: 100px;
     background-color: aqua;
@@ -65,7 +67,6 @@
    font-size: 16px;
 }
 .navbar__input {
-    /* max-width: 214px; */
     height: 22px;
     margin-right: 28px;
     border: none;
@@ -86,6 +87,7 @@
     font-size: 40px;
     padding: 150px 0px 0px 50px;
 }
+/*product slider */
 .slider{
     padding: 50px 70px 12px 70px !important;
     color: #23263B;
@@ -99,7 +101,7 @@
     width: 180px !important;
     color: #23263B;
 }
-.product >p{
+.product>p{
     line-height: 1.8;
     color: #23263B;
 }
@@ -135,12 +137,38 @@
 .slick-next {
     left: 100% !important;
 }
+/* for about page css */
 .about {
     height: 330px;
     max-width: 1140px;
     background-color: #F4F4F5;
-    margin-top: 30px;
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: 40px;
 }
+.about__left {
+    height: 100%;
+    width: 867px;
+    background-color: #706C63;
+}
+.about__content {
+    width: 40%;
+    padding:40px 50px;
+    color: white;
+    line-height: 1.6;
+}
+.about__arrow {
+    padding: 5px;
+    line-height: 66px;
+    color: white;
+    border: 1px solid white;
+}
+.about__right {
+    position: absolute;
+    left: 410px;
+    top: 40px;
+}
+/* for summer product page */
 .summerSlider {
     max-width: 1140px;
     display: flex;
@@ -158,19 +186,20 @@
     background-color: whitesmoke;
     margin-top: 24px;
 }
+/* footer */
 .footer {
-    height: 106px;
     margin-top: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 96px, 80px, 96px, 80px;
    
 }
 .footer__item {
     width:200px ;
     line-height: 1.5;
     text-align: center;
-    padding-bottom: 70px;
+    padding-bottom: 96px;
 }
 .footer__item>h3 {
     margin-left: 28px;

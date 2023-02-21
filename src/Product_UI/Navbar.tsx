@@ -15,6 +15,7 @@ const Navbar = () => {
         <div className="navbar_top">
           <p>20% Off! Code:SPRING21-Terms apply*</p>
         </div>
+        {/* middle navbar */}
         <div className="navbar__middle">
           <div>
             <ul className="navbar__logo">
@@ -44,6 +45,7 @@ const Navbar = () => {
               <li>KIDS</li>
             </ul>
           </div>
+          
           <div className="navbar__mid__bottom">
             <ul className="navbar__mid__navleft">
               <li> SALE</li>

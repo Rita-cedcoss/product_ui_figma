@@ -41,7 +41,7 @@ const ProductSlider = (props: prodSliderProps) => {
                   <p style={{ fontSize: "9px", color: "grey" }}>Brand /Type</p>
                   <p style={{ fontSize: "12px" }}>Name and Characteristics</p>
                   <p style={{ fontSize: "14px", fontWeight: "600" }}>
-                    74,95 € /121,00 €
+                    74,95 € / <del style={{fontSize:"12px"}}>121,00 €</del>
                   </p>
                   <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>

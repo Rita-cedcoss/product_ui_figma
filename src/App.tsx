@@ -6,7 +6,6 @@ import Navbar from './Product_UI/Navbar';
 import ProductSlider from './Product_UI/ProductSlider';
 import './Product_UI/product_ui.css'
 import SummerComponent from './Product_UI/SummerComponent';
-// import Carousel1 from './Product_UI/Carousel1';
 function App() {
   return (
     <div className='container'>
@@ -15,7 +14,9 @@ function App() {
        <ProductSlider heading="Trending Now"/>
        {/* summer */}
        <SummerComponent/>
+      {/* product slider */}
        <ProductSlider heading="Recommended For You"/>
+       <About/>
        <ProductSlider heading="New in Accessories"/>
        {/*Footer */}
        <Footer/>
