@@ -65,6 +65,8 @@
    border:1px solid #91929D;
    padding: 8px 12px 8px 12px;
    font-size: 16px;
+   display: flex;
+   align-items: center;
 }
 .navbar__input {
     height: 22px;
