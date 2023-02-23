@@ -4,7 +4,7 @@ import { color, fontWeight } from "@mui/system";
 type prodSliderProps = {
   heading: string;
 };
-const ProductSlider = (props: prodSliderProps) => {
+const Carousel = (props: prodSliderProps) => {
   const arr = [
     "Image.png",
     "Image@2x.png",
@@ -21,6 +21,42 @@ const ProductSlider = (props: prodSliderProps) => {
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide:1
+        }
+        
+      },
+      {
+        breakpoint: 300,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+        
+      }
+    ],
     nextArrow: <button className="slidernext">{arrow}</button>,
   };
   return (
@@ -59,4 +95,4 @@ const ProductSlider = (props: prodSliderProps) => {
   );
 };
 
-export default ProductSlider;
+export default Carousel;

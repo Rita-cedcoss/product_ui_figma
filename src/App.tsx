@@ -1,27 +1,28 @@
-import React from 'react';
-import './App.css';
-import Footer from './Footer';
-import About from './Product_UI/About';
-import Navbar from './Product_UI/Navbar';
-import ProductSlider from './Product_UI/ProductSlider';
-import './Product_UI/product_ui.css'
-import SummerComponent from './Product_UI/SummerComponent';
+import React from "react";
+import "./App.css";
+import Footer from "./Footer";
+import Navbar from "./components/Navbar";
+import "./components/components.css";
+import SummerComponent from "./components/Product";
+import Carousel from "./components/Carousel";
+import Banner from "./components/Banner";
+import Product from "./components/Product";
 function App() {
   return (
-    <div className='container'>
-       <Navbar/>
-       {/* slider trending */}
-       <ProductSlider heading="Trending Now"/>
-       {/* summer */}
-       <SummerComponent/>
-      {/* product slider */}
-       <ProductSlider heading="Recommended For You"/>
-       <About/>
-       <ProductSlider heading="New in Accessories"/>
-       {/*Footer */}
-       <Footer/>
+    <div className="container">
+      <Navbar />
+      {/* carousel for trending */}
+      <Carousel heading="Trending Now" />
+      {/* summer product */}
+      <Product />
+      {/* carousel for recommended */}
+      <Carousel heading="Recommended For You" />
+      <Banner />
+      {/* carousel for accessories */}
+      <Carousel heading="New in Accessories" />
+      {/*Footer */}
+      <Footer />
     </div>
-   
   );
 }
 

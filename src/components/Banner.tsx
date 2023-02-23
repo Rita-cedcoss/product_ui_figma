@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const Banner = () => {
   return (
     <section className="about">
       <div className="about__left">
@@ -17,10 +17,10 @@ const About = () => {
         </div>
       </div>
       <div className="about__right">
-        <img src="Frame 124.png" height="330px" width="700px" />
+        <img src="Frame 124.png" height="100%" width="100%" />
       </div>
     </section>
   );
 };
 
-export default About;
+export default Banner;

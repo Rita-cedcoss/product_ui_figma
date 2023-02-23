@@ -1,6 +1,6 @@
 import React from "react";
 
-const SummerComponent = () => {
+const Product = () => {
   const arr = [
     {
       image: "Image7.png",
@@ -8,6 +8,7 @@ const SummerComponent = () => {
     },
     {
       image: "Image6.png",
+      left :"slider__wish--left"
     },
     {
       image: "Image8.png",
@@ -16,14 +17,14 @@ const SummerComponent = () => {
   ];
   return (
     <div className="slider slider--bg">
-      <h1 style={{ fontSize: "32px" }}>SPRING/SUMMER 2021</h1>
+      <h1 className="slider__h1">SPRING/SUMMER 2021</h1>
       <div className="summerSlider">
         {arr.map((item) => {
           return (
             <>
               <div className="slider__summer">
                 <div className="slider__item__top">
-                  <img src={item.image} alt="img" />
+                  <img src={item.image} alt="img" height="100%"  width="100%"/>
                   <span className={`${item.left} slider__wish `}>
                     <i className="bi bi-heart"></i>
                   </span>
@@ -50,4 +51,4 @@ const SummerComponent = () => {
   );
 };
 
-export default SummerComponent;
+export default Product;
