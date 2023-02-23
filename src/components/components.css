@@ -249,7 +249,7 @@
     }
   }
 
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
    
     .navbar__mid__bottom {
       display: block;
@@ -274,12 +274,15 @@
     .summerSlider {
         display: block;
     }
+
     .slider__summer {
         padding-bottom: 15px !important;
     }
+
     .slider__h1{
         font-size: 20px !important;
      } 
+
      .about__right {
         display: none;
      }
