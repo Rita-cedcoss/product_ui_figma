@@ -28,34 +28,32 @@ const Carousel = (props: prodSliderProps) => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          initialSlide:1
-        }
-        
+          initialSlide: 1,
+        },
       },
       {
         breakpoint: 300,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-        
-      }
+          slidesToScroll: 1,
+        },
+      },
     ],
     nextArrow: <button className="slidernext">{arrow}</button>,
   };
@@ -77,7 +75,7 @@ const Carousel = (props: prodSliderProps) => {
                   <p style={{ fontSize: "9px", color: "grey" }}>Brand /Type</p>
                   <p style={{ fontSize: "12px" }}>Name and Characteristics</p>
                   <p style={{ fontSize: "14px", fontWeight: "600" }}>
-                    74,95 € / <del style={{fontSize:"12px"}}>121,00 €</del>
+                    74,95 € / <del style={{ fontSize: "12px" }}>121,00 €</del>
                   </p>
                   <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>

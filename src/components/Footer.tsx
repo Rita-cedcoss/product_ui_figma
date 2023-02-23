@@ -17,7 +17,7 @@ const Footer = () => {
           );
         })}
       </section>
-      <img height="106px" width="100%" src="Footer Bottom.png"></img>
+      <img height="106px" width="100%" src="Footer Bottom.png" alt="img"></img>
     </>
   );
 };

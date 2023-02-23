@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import "./components/components.css";
 import SummerComponent from "./components/Product";

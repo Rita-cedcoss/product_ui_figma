@@ -20,7 +20,7 @@ const Navbar = () => {
           <div>
             <ul className="navbar__logo">
               <li>
-                <img src="Logo-lockup.png" height="30px" width="150px" />
+                <img src="Logo-lockup.png" height="30px" width="150px" alt="img"/>
               </li>
               <li></li>
               <li className="navbar__logo__mid">
